@@ -1,4 +1,4 @@
-# dolar_1_real
+# Dolar_1_real
 
 A new Flutter application.
 
