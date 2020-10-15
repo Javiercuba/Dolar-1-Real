@@ -137,7 +137,7 @@ Widget buildTextField(String label,String prefix, TextEditingController c,Functi
       prefixText: prefix,
     ),
     onChanged: f ,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.numberWithOptions(decimal: true),
   );
 }
 
