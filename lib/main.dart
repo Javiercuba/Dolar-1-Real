@@ -21,7 +21,6 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-
   final realcontroller = TextEditingController();
   final dolarcontroller = TextEditingController();
   final eurocontroller = TextEditingController();
@@ -95,7 +94,7 @@ class _HomeState extends State<Home> {
                         child: Text(
                           "Erro ao carregar Dados",
                           style: TextStyle(
-                            color: Colors.lightGreen,
+                            color: Colors.black,
                             fontSize: 25.0,),
 
                           textAlign: TextAlign.center,  )
